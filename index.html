@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nina Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nina — Digital Designer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: #060b1b;
+      color: #f2f2f2;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #f2f2f2;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+    }
+
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #3a8ef6;
+      transition: width 0.3s;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      border-left: 4px solid #3a8ef6;
+      padding-left: 10px;
+    }
+
+    a {
+      color: #3a8ef6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      padding-top: 20px;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Nina</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#works">Works</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Nina, a digital designer passionate about beautiful and functional design.</p>
-        </section>
-        <section id="works">
-            <h2>My Works</h2>
-            <p>Check out my work on <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a> and <a href="https://www.instagram.com/mijudesig?igsh=MTZ1dGg2bzFjZnQzZw==" target="_blank">Instagram</a>.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach out via <a href="https://www.instagram.com/mijudesig?igsh=MTZ1dGg2bzFjZnQzZw==" target="_blank">@mijudesig</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Nina</p>
-    </footer>
+  <header>
+    <h1>Nina</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Nina, a digital designer focused on elegant, functional design that tells a story.</p>
+    </section>
+
+    <section id="works">
+      <h2>My Works</h2>
+      <p>See my full portfolio on <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a> and <a href="https://www.instagram.com/mijudesig" target="_blank">Instagram</a>.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach out via <a href="https://instagram.com/mijudesig" target="_blank">@mijudesig</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Nina
+  </footer>
 </body>
 </html>
