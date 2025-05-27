@@ -262,3 +262,23 @@ footer {
 .nav-menu a:hover {
   color: #8ab4ff;
 }
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  font-size: 20px;
+  padding: 10px 15px;
+  background: #132048;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00000050;
+  transition: background 0.3s;
+}
+
+#scrollBtn:hover {
+  background: #1d2e6c;
+}
