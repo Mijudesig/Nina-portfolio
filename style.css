@@ -166,3 +166,51 @@ footer {
   font-size: 14px;
   color: var(--soft);
 }
+.contact-section {
+  background: #0a0f2e;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #101840;
+  color: #fff;
+}
+
+.contact-section button {
+  background-color: #1a2a6c;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.contact-section button:hover {
+  background-color: #3f51b5;
+  transform: scale(1.05);
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #9ebaff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #ffffff;
+}
