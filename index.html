@@ -8,22 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-<body <section id="contact" class="contact-section">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>If you'd like to collaborate, ask a question, or just say hi – feel free to reach out!</p>
-    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="email" name="email" placeholder="Your email" required>
-      <textarea name="message" placeholder="Your message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <div class="socials">
-      <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a>
-      <a href="https://www.instagram.com/mijudesig" target="_blank">Instagram</a>
-    </div>
-  </div>
-</section>>
+<body>
   <header class="hero">
     <div class="container">
       <div class="logo">NINA</div>
@@ -40,19 +25,21 @@
       <p>Self-taught designer from Estonia with Finnish roots. Creating unique logo identities inspired by architecture, nature, and emotion.</p>
       <a href="#portfolio" class="btn">See My Work</a>
     </div>
+  </header>
+
   <header class="site-header">
-  <div class="logo">
-    <img src="logo.png" alt="Nina Logo">
-    <span class="logo-name">Nina</span>
-  </div>
-  <nav class="nav-menu">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header><
+    <div class="logo">
+      <img src="logo.png" alt="Nina Logo">
+      <span class="logo-name">Nina</span>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <section id="about" class="about">
     <div class="container">
@@ -84,13 +71,19 @@
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="contact" class="contact-section">
     <div class="container">
-      <h2>Let's Connect</h2>
-      <p>You can find more of my work here:</p>
-      <div class="links">
+      <h2>Contact Me</h2>
+      <p>If you'd like to collaborate, ask a question, or just say hi – feel free to reach out!</p>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="socials">
         <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a>
-        <a href="https://www.instagram.com/mijudesig?igsh=MTZ1dGg2bzFjZnQzZw==" target="_blank">Instagram</a>
+        <a href="https://www.instagram.com/mijudesig" target="_blank">Instagram</a>
         <a href="mailto:nina@example.com">Email Me</a>
       </div>
     </div>
@@ -101,5 +94,17 @@
       <p>© 2025 Nina — Designed with passion.</p>
     </div>
   </footer>
-</body <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">↑</button>
+
+  <button id="scrollBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+
+  <script>
+    const scrollBtn = document.getElementById("scrollBtn");
+    window.onscroll = function() {
+      scrollBtn.style.display = (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? "block" : "none";
+    };
+    function scrollToTop() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+  </script>
+</body>
 </html>
