@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Hero Section -->
   <header class="hero">
     <div class="container">
       <div class="logo">NINA</div>
@@ -27,20 +28,7 @@
     </div>
   </header>
 
-  <header class="site-header">
-    <div class="logo">
-      <img src="logo.png" alt="Nina Logo">
-      <span class="logo-name">Nina</span>
-    </div>
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <!-- About Section -->
   <section id="about" class="about">
     <div class="container">
       <h2>About Me</h2>
@@ -48,29 +36,38 @@
     </div>
   </section>
 
+  <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio">
     <div class="container">
       <h2>My Work</h2>
       <div class="grid">
+
+        <!-- Project: Aurore -->
         <div class="project">
-          <img src="images/logo1-ai.jpg" alt="Luxury Logo Design 1" />
-          <h3>La Néréide</h3>
-          <p>Luxury jewelry brand concept</p>
-        </div>
-        <div class="project">
-          <img src="images/logo2-ai.jpg" alt="Luxury Logo Design 2" />
-          <h3>Mare & Linea</h3>
-          <p>Elegant handbag label identity</p>
-        </div>
-        <div class="project">
-          <img src="images/logo3-ai.jpg" alt="Luxury Logo Design 3" />
+          <img src="images/aurore.jpg" alt="Aurore Perfume Branding" />
           <h3>Aurore</h3>
-          <p>Premium perfume branding</p>
+          <p>Premium perfume branding concept — soft gradients, elegance, luxury.</p>
         </div>
+
+        <!-- Project: La Néréide -->
+        <div class="project">
+          <img src="images/nereide.jpg" alt="La Néréide Jewelry" />
+          <h3>La Néréide</h3>
+          <p>Luxury jewelry brand identity — oceanic inspiration, refined typography.</p>
+        </div>
+
+        <!-- Project: Mare & Linea -->
+        <div class="project">
+          <img src="images/mare-linea.jpg" alt="Mare & Linea Handbags" />
+          <h3>Mare & Linea</h3>
+          <p>Elegant handbag label identity — clean lines, soft contrast, Mediterranean feel.</p>
+        </div>
+
       </div>
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <div class="container">
       <h2>Contact Me</h2>
@@ -89,12 +86,14 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>© 2025 Nina — Designed with passion.</p>
     </div>
   </footer>
 
+  <!-- Scroll to top button -->
   <button id="scrollBtn" onclick="scrollToTop()" title="Go to top">↑</button>
 
   <script>
