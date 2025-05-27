@@ -279,6 +279,13 @@ footer {
   transition: background 0.3s;
 }
 
+.about img {
+  width: 250px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
 #scrollBtn:hover {
   background: #1d2e6c;
 }
