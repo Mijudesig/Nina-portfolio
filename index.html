@@ -2,134 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NINA — Graphic Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nina — Visual Identity & Design</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:wght@600&family=Cinzel:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Scroll Button -->
-  <button onclick="scrollToTop()" id="scrollBtn">↑</button>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="logo">
-      <img src="A_logo_design_features_the_brand_name_&quot;NINA&quot;_again.png" alt="NINA Logo">
-      <div class="logo-name">NINA</div>
+  <header>
+    <div class="container">
+      <h1 class="logo">Nina</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
-    <div class="container hero-content">
-      <h1>Designs Shaped by Moonlight</h1>
-      <p>Identity creation rooted in architecture, silence and subtlety. Based in Estonia.</p>
-      <a href="#portfolio" class="btn">See Portfolio</a>
+    <div class="container">
+      <h2>Visual Identity, Logos & Design with soul</h2>
+      <p>Inspired by architecture, sea and light</p>
     </div>
   </section>
 
-  <!-- About -->
   <section id="about" class="about">
     <div class="container">
-      <h2>About Me</h2>
-      <p>I'm Nina, a self-taught logo designer from Estonia. I create emotional and symbolic branding with a refined, moon-toned visual language. My work blends architectural thinking with poetic minimalism.</p>
-      <img src="691E98FA-49BC-4576-9562-C1B924337CDB.jpeg" alt="Portrait of Nina">
+      <h3>About Me</h3>
+      <p>
+        I'm Nina, a 17-year-old self-taught logo designer from Estonia with Finnish roots. 
+        I find inspiration in architecture, minimalism, and the rhythm of the sea.
+      </p>
     </div>
   </section>
 
-  <!-- Portfolio -->
   <section id="portfolio" class="portfolio">
     <div class="container">
-      <h2>Selected Work</h2>
+      <h3>Selected Works</h3>
       <div class="grid">
-
         <div class="project">
-          <img src="51247438-390E-47DF-BFF7-384CEFAFD34B.png" alt="Aurore Perfume Logo">
-          <h3>Aurore</h3>
-          <p>Elegant perfume branding with a focus on serif harmony and deep, mysterious tones.</p>
-       <div class="project">
-  <img src="https://via.placeholder.com/600x400/1e1e2f/ffffff?text=Linea" alt="Linea Logo">
-  <h3>Linea</h3>
-  <p>Minimalist logo built on vertical rhythm, inspired by Nordic architecture and old engravings.</p>
-</div>
-
-<div class="project">
-  <img src="https://via.placeholder.com/600x400/1e1e2f/ffffff?text=Mare" alt="Mare Logo">
-  <h3>Mare</h3>
-  <p>A logo study echoing wave structures and marine hues. Deep, gentle, and symbolic.</p>
-</div>
-
-<div class="project">
-  <img src="https://via.placeholder.com/600x400/1e1e2f/ffffff?text=Orris" alt="Orris Logo">
-  <h3>Orris</h3>
-  <p>Identity for a fictional skincare brand. Elegant curves meet lunar geometry and botanical serif forms.</p>
-</div>
+          <img src="img/aurore.jpg" alt="Aurore" />
+          <h4>Aurore</h4>
         </div>
-
         <div class="project">
-          <img src="AA005B1F-0459-401B-84B8-69C10EC9C8D1.jpeg" alt="La Néréide Jewelry Logo">
-          <h3>La Néréide</h3>
-          <p>Jewelry identity design inspired by the sea and ancient feminine symbolism.</p>
+          <img src="img/mare.jpg" alt="Mare" />
+          <h4>Mare</h4>
         </div>
-
         <div class="project">
-          <img src="A_logo_design_features_the_brand_name_&quot;NINA&quot;_again.png" alt="Moonlight Logo">
-          <h3>Site Logo</h3>
-          <p>Silver-toned logo made specifically for this portfolio site, reflecting the lunar theme and silent elegance.</p>
+          <img src="img/nereide.jpg" alt="Néréide" />
+          <h4>La Néréide</h4>
         </div>
-
+        <div class="project">
+          <img src="img/linea.jpg" alt="Linea" />
+          <h4>Linea</h4>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="contact-section">
+  <section id="contact" class="contact">
     <div class="container">
-      <h2>Contact</h2>
-      <p>Interested in working together or just want to say hello? Write to me below.</p>
-      <form action="mailto:nina@example.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your name" required />
-        <input type="email" name="email" placeholder="Your email" required />
-        <textarea name="message" placeholder="Your message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-
-      <div class="socials">
-        <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a>
-        <a href="https://www.instagram.com/mijudesig" target="_blank">Instagram</a>
-        <a href="mailto:nina@example.com">Email</a>
-      </div>
+      <h3>Let's Connect</h3>
+      <p>Write me on <a href="https://www.instagram.com/mijudesig" target="_blank">Instagram</a> or <a href="https://www.behance.net/milanajunolai" target="_blank">Behance</a></p>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2025 NINA — Portfolio under moonlight.</p>
+      <p>© 2025 Nina — All rights reserved</p>
     </div>
   </footer>
-
-  <script>
-    const scrollBtn = document.getElementById("scrollBtn");
-    window.onscroll = () => {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        scrollBtn.style.display = "block";
-      } else {
-        scrollBtn.style.display = "none";
-      }
-    };
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  </script>
-
 </body>
 </html>
